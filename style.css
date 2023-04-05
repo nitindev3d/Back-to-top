@@ -1,0 +1,51 @@
+*,*::before,*::after {
+    margin : 0;
+    padding: 0;
+}
+
+div {
+    box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-size: 1.2rem;
+}
+
+.heading {
+    text-align: center;
+    padding: 2em;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 40em;
+    margin: auto;
+}
+
+.item {
+    padding: 1em;
+    background-color: rgb(253, 237, 215); 
+    border-radius: 10px;
+}
+
+.top {
+    font-size: inherit;
+    padding: 10px;
+    background-color: rgba(26, 160, 184, 0.582);
+    border-radius: 5px;
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    cursor: pointer;
+}
+
+.item , .top {
+    border: 1px solid rgba(190, 190, 190, 0.363);
+    box-shadow: 5px 5px 20px rgba(194, 194, 194, 0.397);
+    
+}
